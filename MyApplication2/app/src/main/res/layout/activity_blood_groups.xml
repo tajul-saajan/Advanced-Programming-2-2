@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saajan.myapplication.BloodGroups">
+
+    <Button
+        android:id="@+id/a_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/a_negative"
+        android:layout_alignBottom="@+id/a_negative"
+        android:layout_alignLeft="@+id/b_positive"
+        android:layout_alignStart="@+id/b_positive"
+        android:text="A+"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/b_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B-"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="163dp"
+        android:layout_alignBaseline="@+id/b_positive"
+        android:layout_alignBottom="@+id/b_positive"
+        android:layout_alignLeft="@+id/o_negative"
+        android:layout_alignStart="@+id/o_negative" />
+
+    <Button
+        android:id="@+id/o_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O-"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="268dp"
+        android:layout_alignBaseline="@+id/o_positive"
+        android:layout_alignBottom="@+id/o_positive"
+        android:layout_alignLeft="@+id/ab_negative"
+        android:layout_alignStart="@+id/ab_negative" />
+
+    <Button
+        android:id="@+id/ab_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AB-"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="381dp"
+        android:layout_alignBaseline="@+id/ab_positive"
+        android:layout_alignBottom="@+id/ab_positive"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp" />
+
+    <Button
+        android:id="@+id/a_negative"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_negative"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/b_negative"
+        android:layout_marginTop="15dp"
+        android:text="A-"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/b_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="163dp"
+        android:layout_above="@+id/o_positive"
+        android:layout_alignLeft="@+id/o_positive"
+        android:layout_alignStart="@+id/o_positive"
+        android:layout_marginBottom="86dp" />
+
+    <Button
+        android:id="@+id/o_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O+"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="268dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="109dp"
+        android:layout_above="@+id/ab_positive"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/ab_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AB+"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="381dp"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/o_positive"
+        android:layout_alignStart="@+id/o_positive" />
+</RelativeLayout>
