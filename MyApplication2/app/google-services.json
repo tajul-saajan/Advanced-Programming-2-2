@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "532622514652",
+    "firebase_url": "https://dream-b2412.firebaseio.com",
+    "project_id": "dream-b2412",
+    "storage_bucket": "dream-b2412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532622514652:android:bb14282adf211f41",
+        "android_client_info": {
+          "package_name": "com.example.saajan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532622514652-bf4a13tortsklrgcqt43a0j69tlvi7pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saajan.myapplication",
+            "certificate_hash": "1397477d5b040457827a97197747c17fcd7a6322"
+          }
+        },
+        {
+          "client_id": "532622514652-9m0hdpafqild8hskrvfiemci1sbpqqr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW7zaVly-4ex7niP17bpnvJqZuxt_sO-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532622514652-9m0hdpafqild8hskrvfiemci1sbpqqr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

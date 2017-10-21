@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.send_message) {
 
-        } else if (id == R.id.no_service) {
+        } else if (id == R.id.no_action) {
 
         } else if (id == R.id.nav_share) {
 
